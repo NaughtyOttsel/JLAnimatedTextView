@@ -6,6 +6,12 @@
 //  Copyright (c) 2011 Touch Device Company. All rights reserved.
 //
 
+/*
+This Source code is released under the Creative Commons License: 'Creative Commons Attribution-ShareAlike 3.0 Unported License'
+ 
+This Source Code is released as is, any damage made to projects, software or hardware through the use of this source code is down the user. James Lee and Touch Device Company do not accept any liability for these damamges.
+*/
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
