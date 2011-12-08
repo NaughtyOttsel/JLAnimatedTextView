@@ -13,6 +13,9 @@
 		1A0CD44F1491656500DC9443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0CD44D1491656500DC9443 /* InfoPlist.strings */; };
 		1A0CD4511491656500DC9443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD4501491656500DC9443 /* main.m */; };
 		1A0CD4551491656500DC9443 /* JLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD4541491656500DC9443 /* JLAppDelegate.m */; };
+		1A0CD45D1491658C00DC9443 /* JLAnimatedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD45C1491658C00DC9443 /* JLAnimatedTextView.m */; };
+		1A0CD4611491659C00DC9443 /* ATLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD45F1491659C00DC9443 /* ATLViewController.m */; };
+		1A0CD4621491659C00DC9443 /* ATLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A0CD4601491659C00DC9443 /* ATLViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,17 @@
 		1A0CD4441491656500DC9443 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A0CD4461491656500DC9443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1A0CD4481491656500DC9443 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1A0CD44C1491656500DC9443 /* JLAnimatedTextView-Info.plist */ = {isa = PBXFileReference; path = "JLAnimatedTextView-Info.plist"; sourceTree = "<group>"; };
+		1A0CD44C1491656500DC9443 /* JLAnimatedTextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLAnimatedTextView-Info.plist"; sourceTree = "<group>"; };
 		1A0CD44E1491656500DC9443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A0CD4501491656500DC9443 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A0CD4521491656500DC9443 /* JLAnimatedTextView-Prefix.pch */ = {isa = PBXFileReference; path = "JLAnimatedTextView-Prefix.pch"; sourceTree = "<group>"; };
-		1A0CD4531491656500DC9443 /* JLAppDelegate.h */ = {isa = PBXFileReference; path = JLAppDelegate.h; sourceTree = "<group>"; };
+		1A0CD4521491656500DC9443 /* JLAnimatedTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLAnimatedTextView-Prefix.pch"; sourceTree = "<group>"; };
+		1A0CD4531491656500DC9443 /* JLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLAppDelegate.h; sourceTree = "<group>"; };
 		1A0CD4541491656500DC9443 /* JLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLAppDelegate.m; sourceTree = "<group>"; };
+		1A0CD45B1491658C00DC9443 /* JLAnimatedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAnimatedTextView.h; sourceTree = "<group>"; };
+		1A0CD45C1491658C00DC9443 /* JLAnimatedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAnimatedTextView.m; sourceTree = "<group>"; };
+		1A0CD45E1491659C00DC9443 /* ATLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLViewController.h; sourceTree = "<group>"; };
+		1A0CD45F1491659C00DC9443 /* ATLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLViewController.m; sourceTree = "<group>"; };
+		1A0CD4601491659C00DC9443 /* ATLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATLViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +80,13 @@
 		1A0CD44A1491656500DC9443 /* JLAnimatedTextView */ = {
 			isa = PBXGroup;
 			children = (
+				1A0CD45E1491659C00DC9443 /* ATLViewController.h */,
+				1A0CD45F1491659C00DC9443 /* ATLViewController.m */,
+				1A0CD4601491659C00DC9443 /* ATLViewController.xib */,
 				1A0CD4531491656500DC9443 /* JLAppDelegate.h */,
 				1A0CD4541491656500DC9443 /* JLAppDelegate.m */,
+				1A0CD45B1491658C00DC9443 /* JLAnimatedTextView.h */,
+				1A0CD45C1491658C00DC9443 /* JLAnimatedTextView.m */,
 				1A0CD44B1491656500DC9443 /* Supporting Files */,
 			);
 			path = JLAnimatedTextView;
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A0CD44F1491656500DC9443 /* InfoPlist.strings in Resources */,
+				1A0CD4621491659C00DC9443 /* ATLViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +168,8 @@
 			files = (
 				1A0CD4511491656500DC9443 /* main.m in Sources */,
 				1A0CD4551491656500DC9443 /* JLAppDelegate.m in Sources */,
+				1A0CD45D1491658C00DC9443 /* JLAnimatedTextView.m in Sources */,
+				1A0CD4611491659C00DC9443 /* ATLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ATLViewController.h"
 
 @interface JLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) ATLViewController *viewController;
 
 @end
