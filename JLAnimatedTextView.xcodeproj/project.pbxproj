@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0CD4451491656500DC9443 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0CD4441491656500DC9443 /* UIKit.framework */; };
+		1A0CD4471491656500DC9443 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0CD4461491656500DC9443 /* Foundation.framework */; };
+		1A0CD4491491656500DC9443 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0CD4481491656500DC9443 /* CoreGraphics.framework */; };
+		1A0CD44F1491656500DC9443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0CD44D1491656500DC9443 /* InfoPlist.strings */; };
+		1A0CD4511491656500DC9443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD4501491656500DC9443 /* main.m */; };
+		1A0CD4551491656500DC9443 /* JLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD4541491656500DC9443 /* JLAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0CD4401491656500DC9443 /* JLAnimatedTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLAnimatedTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0CD4441491656500DC9443 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A0CD4461491656500DC9443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A0CD4481491656500DC9443 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A0CD44C1491656500DC9443 /* JLAnimatedTextView-Info.plist */ = {isa = PBXFileReference; path = "JLAnimatedTextView-Info.plist"; sourceTree = "<group>"; };
+		1A0CD44E1491656500DC9443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A0CD4501491656500DC9443 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A0CD4521491656500DC9443 /* JLAnimatedTextView-Prefix.pch */ = {isa = PBXFileReference; path = "JLAnimatedTextView-Prefix.pch"; sourceTree = "<group>"; };
+		1A0CD4531491656500DC9443 /* JLAppDelegate.h */ = {isa = PBXFileReference; path = JLAppDelegate.h; sourceTree = "<group>"; };
+		1A0CD4541491656500DC9443 /* JLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0CD43D1491656500DC9443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0CD4451491656500DC9443 /* UIKit.framework in Frameworks */,
+				1A0CD4471491656500DC9443 /* Foundation.framework in Frameworks */,
+				1A0CD4491491656500DC9443 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0CD4351491656500DC9443 = {
+			isa = PBXGroup;
+			children = (
+				1A0CD44A1491656500DC9443 /* JLAnimatedTextView */,
+				1A0CD4431491656500DC9443 /* Frameworks */,
+				1A0CD4411491656500DC9443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0CD4411491656500DC9443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0CD4401491656500DC9443 /* JLAnimatedTextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0CD4431491656500DC9443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A0CD4441491656500DC9443 /* UIKit.framework */,
+				1A0CD4461491656500DC9443 /* Foundation.framework */,
+				1A0CD4481491656500DC9443 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A0CD44A1491656500DC9443 /* JLAnimatedTextView */ = {
+			isa = PBXGroup;
+			children = (
+				1A0CD4531491656500DC9443 /* JLAppDelegate.h */,
+				1A0CD4541491656500DC9443 /* JLAppDelegate.m */,
+				1A0CD44B1491656500DC9443 /* Supporting Files */,
+			);
+			path = JLAnimatedTextView;
+			sourceTree = "<group>";
+		};
+		1A0CD44B1491656500DC9443 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A0CD44C1491656500DC9443 /* JLAnimatedTextView-Info.plist */,
+				1A0CD44D1491656500DC9443 /* InfoPlist.strings */,
+				1A0CD4501491656500DC9443 /* main.m */,
+				1A0CD4521491656500DC9443 /* JLAnimatedTextView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0CD43F1491656500DC9443 /* JLAnimatedTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0CD4581491656500DC9443 /* Build configuration list for PBXNativeTarget "JLAnimatedTextView" */;
+			buildPhases = (
+				1A0CD43C1491656500DC9443 /* Sources */,
+				1A0CD43D1491656500DC9443 /* Frameworks */,
+				1A0CD43E1491656500DC9443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLAnimatedTextView;
+			productName = JLAnimatedTextView;
+			productReference = 1A0CD4401491656500DC9443 /* JLAnimatedTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0CD4371491656500DC9443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Touch Device Company";
+			};
+			buildConfigurationList = 1A0CD43A1491656500DC9443 /* Build configuration list for PBXProject "JLAnimatedTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A0CD4351491656500DC9443;
+			productRefGroup = 1A0CD4411491656500DC9443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0CD43F1491656500DC9443 /* JLAnimatedTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0CD43E1491656500DC9443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0CD44F1491656500DC9443 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0CD43C1491656500DC9443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0CD4511491656500DC9443 /* main.m in Sources */,
+				1A0CD4551491656500DC9443 /* JLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A0CD44D1491656500DC9443 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0CD44E1491656500DC9443 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A0CD4561491656500DC9443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A0CD4571491656500DC9443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A0CD4591491656500DC9443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLAnimatedTextView/JLAnimatedTextView-Prefix.pch";
+				INFOPLIST_FILE = "JLAnimatedTextView/JLAnimatedTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A0CD45A1491656500DC9443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLAnimatedTextView/JLAnimatedTextView-Prefix.pch";
+				INFOPLIST_FILE = "JLAnimatedTextView/JLAnimatedTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0CD43A1491656500DC9443 /* Build configuration list for PBXProject "JLAnimatedTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0CD4561491656500DC9443 /* Debug */,
+				1A0CD4571491656500DC9443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0CD4581491656500DC9443 /* Build configuration list for PBXNativeTarget "JLAnimatedTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0CD4591491656500DC9443 /* Debug */,
+				1A0CD45A1491656500DC9443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0CD4371491656500DC9443 /* Project object */;
+}
