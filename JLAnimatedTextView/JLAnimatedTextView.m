@@ -11,7 +11,7 @@
 @implementation JLAnimatedTextView
 @synthesize selfUpdatingString, speed, animatedTextDelegate;
 
--(id)initWithSelfUpdatingTextViewWithFrame:(CGRect)frame textToDisplay:(NSString *)text andTextSpeed:(float)textSpeed
+-(id)initWithFrame:(CGRect)frame textToDisplay:(NSString *)text andTextSpeed:(float)textSpeed
 {
     if (self = [super initWithFrame:frame])
     {

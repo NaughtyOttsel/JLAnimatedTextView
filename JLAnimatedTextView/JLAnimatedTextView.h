@@ -31,7 +31,7 @@ This Source Code is released as is, any damage made to projects, software or har
 
 @property (nonatomic, strong) id <JLAnimatedTextViewDelegate> animatedTextDelegate; //The delegate
 
--initWithSelfUpdatingTextViewWithFrame: (CGRect)frame textToDisplay:(NSString *)text andTextSpeed:(float)textSpeed; //The init method if the view is created programatically.
+-initWithFrame: (CGRect)frame textToDisplay:(NSString *)text andTextSpeed:(float)textSpeed; //The init method if the view is created programatically.
 
 -(void)start; //Start the animation.
 @end
