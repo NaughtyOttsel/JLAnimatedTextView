@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ATLViewController.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>JLAnimatedTextView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,21 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>1A0CD43F1491656500DC9443</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1A7ECF5A14975C7000F1ADE1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1A7ECF7314975C9200F1ADE1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1AACADB11497629E00B9ABA5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

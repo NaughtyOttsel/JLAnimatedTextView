@@ -45,6 +45,18 @@
     textView = nil;
 }
 
+-(void)updatePage
+{
+    NSString *newText = [[NSString alloc] initWithString:@"How about another page of additional text, this is to see if the view does update itself when needed :) fjbjfbds,jfbd,jhfb,sjdb,jhvbmdbdfsfjdf,jhdjdbsdjbhcj,hdbckdgksdjdfslgdskjfdfkgfskjbdcjsgfgflj liuh lruflhgaflzufaygfuygf uidlldjfhfdhlfu uhf ;h"];
+    
+    [self.theTextLabel addNewPageOfText:newText];
+}
+
+-(void)textViewDidFinishDisplayingText:(JLAnimatedTextView *)textView
+{
+    [self performSelector:@selector(updatePage) withObject:nil afterDelay:2.0];
+}
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];

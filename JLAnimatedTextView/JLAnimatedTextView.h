@@ -34,6 +34,9 @@ This Source Code is released as is, any damage made to projects, software or har
 -initWithFrame: (CGRect)frame textToDisplay:(NSString *)text andTextSpeed:(float)textSpeed; //The init method if the view is created programatically.
 
 -(void)start; //Start the animation.
+
+-(void)addNewPageOfText:(NSString *)text; //Essentially clearing the text and starting again with a new string.
+
 @end
 
 @protocol JLAnimatedTextViewDelegate <NSObject>
@@ -42,5 +45,7 @@ This Source Code is released as is, any damage made to projects, software or har
 
 -(void)textViewDidRecieveTap:(JLAnimatedTextView *)textView; //Called if the delegate responds to the method to allow the delegate to do whatever it wants with the textview. E.g. Removing the textView from the superview.
 -(void)textViewDidRecieveDoubleTap:(JLAnimatedTextView *)textView; //Again called if the delegate responds to the method to allow the delegate to do whatever it wants.
+
+-(void)textViewDidFinishDisplayingText:(JLAnimatedTextView *)textView; //Called if the delegate reponds to the method, once the view has self updated itself the method is called.
 
 @end

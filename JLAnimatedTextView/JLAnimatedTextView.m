@@ -55,6 +55,12 @@
     {
         //If all the text has been displayed, stop the timer.
         [timer invalidate];
+        
+        //if the delegate responds to the method call the textViewDidFinishDisplayingText
+        if ([self.animatedTextDelegate respondsToSelector:@selector(textViewDidFinishDisplayingText:)])
+        {
+            [self.animatedTextDelegate textViewDidFinishDisplayingText:self];
+        }
     }
 
 }
@@ -116,5 +122,23 @@
     
     //Call the timer to start
     updatingTimer = [NSTimer scheduledTimerWithTimeInterval:self.speed target:self selector:@selector(addSomeText:) userInfo:nil repeats:YES];
+}
+
+-(void)addNewPageOfText:(NSString *)text
+{
+    //Set the selfUpdatingString to the new text 
+    self.selfUpdatingString = text;
+    
+    //'Clear' the current text
+    self.text = @"";
+    
+    //Make sure we scroll to the top
+    [self scrollRangeToVisible:NSMakeRange(0, 0)];
+    
+    //Reset the index
+    index = 0;
+    
+    //And start
+    [self start];
 }
 @end

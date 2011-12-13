@@ -16,6 +16,18 @@
 		1A0CD45D1491658C00DC9443 /* JLAnimatedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD45C1491658C00DC9443 /* JLAnimatedTextView.m */; };
 		1A0CD4611491659C00DC9443 /* ATLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD45F1491659C00DC9443 /* ATLViewController.m */; };
 		1A0CD4621491659C00DC9443 /* ATLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A0CD4601491659C00DC9443 /* ATLViewController.xib */; };
+		1AACADB41497629E00B9ABA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0CD4441491656500DC9443 /* UIKit.framework */; };
+		1AACADB51497629E00B9ABA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0CD4461491656500DC9443 /* Foundation.framework */; };
+		1AACADB61497629E00B9ABA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0CD4481491656500DC9443 /* CoreGraphics.framework */; };
+		1AACADC7149762B900B9ABA5 /* ATLViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD45E1491659C00DC9443 /* ATLViewController.h */; };
+		1AACADC8149762B900B9ABA5 /* ATLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD45F1491659C00DC9443 /* ATLViewController.m */; };
+		1AACADC9149762B900B9ABA5 /* ATLViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD4601491659C00DC9443 /* ATLViewController.xib */; };
+		1AACADCA149762B900B9ABA5 /* JLAppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD4531491656500DC9443 /* JLAppDelegate.h */; };
+		1AACADCB149762B900B9ABA5 /* JLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD4541491656500DC9443 /* JLAppDelegate.m */; };
+		1AACADCC149762B900B9ABA5 /* JLAnimatedTextView.h in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD45B1491658C00DC9443 /* JLAnimatedTextView.h */; };
+		1AACADCD149762B900B9ABA5 /* JLAnimatedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD45C1491658C00DC9443 /* JLAnimatedTextView.m */; };
+		1AACADCE149762B900B9ABA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CD4501491656500DC9443 /* main.m */; };
+		1AACADCF149762C500B9ABA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0CD44D1491656500DC9443 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +46,13 @@
 		1A0CD45E1491659C00DC9443 /* ATLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLViewController.h; sourceTree = "<group>"; };
 		1A0CD45F1491659C00DC9443 /* ATLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLViewController.m; sourceTree = "<group>"; };
 		1A0CD4601491659C00DC9443 /* ATLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATLViewController.xib; sourceTree = "<group>"; };
+		1AACADB21497629E00B9ABA5 /* ATLViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATLViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AACADB91497629E00B9ABA5 /* ATLViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ATLViewController-Info.plist"; sourceTree = "<group>"; };
+		1AACADBB1497629E00B9ABA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AACADBD1497629E00B9ABA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AACADBF1497629E00B9ABA5 /* ATLViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ATLViewController-Prefix.pch"; sourceTree = "<group>"; };
+		1AACADC01497629E00B9ABA5 /* ATLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATLAppDelegate.h; sourceTree = "<group>"; };
+		1AACADC11497629E00B9ABA5 /* ATLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATLAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1AACADAF1497629E00B9ABA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AACADB41497629E00B9ABA5 /* UIKit.framework in Frameworks */,
+				1AACADB51497629E00B9ABA5 /* Foundation.framework in Frameworks */,
+				1AACADB61497629E00B9ABA5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				1A0CD44A1491656500DC9443 /* JLAnimatedTextView */,
+				1AACADB71497629E00B9ABA5 /* ATLViewController */,
 				1A0CD4431491656500DC9443 /* Frameworks */,
 				1A0CD4411491656500DC9443 /* Products */,
 			);
@@ -63,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				1A0CD4401491656500DC9443 /* JLAnimatedTextView.app */,
+				1AACADB21497629E00B9ABA5 /* ATLViewController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +134,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1AACADB71497629E00B9ABA5 /* ATLViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1AACADC01497629E00B9ABA5 /* ATLAppDelegate.h */,
+				1AACADC11497629E00B9ABA5 /* ATLAppDelegate.m */,
+				1AACADB81497629E00B9ABA5 /* Supporting Files */,
+			);
+			path = ATLViewController;
+			sourceTree = "<group>";
+		};
+		1AACADB81497629E00B9ABA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AACADB91497629E00B9ABA5 /* ATLViewController-Info.plist */,
+				1AACADBA1497629E00B9ABA5 /* InfoPlist.strings */,
+				1AACADBD1497629E00B9ABA5 /* main.m */,
+				1AACADBF1497629E00B9ABA5 /* ATLViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +173,23 @@
 			name = JLAnimatedTextView;
 			productName = JLAnimatedTextView;
 			productReference = 1A0CD4401491656500DC9443 /* JLAnimatedTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AACADB11497629E00B9ABA5 /* ATLViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AACADC51497629E00B9ABA5 /* Build configuration list for PBXNativeTarget "ATLViewController" */;
+			buildPhases = (
+				1AACADAE1497629E00B9ABA5 /* Sources */,
+				1AACADAF1497629E00B9ABA5 /* Frameworks */,
+				1AACADB01497629E00B9ABA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATLViewController;
+			productName = ATLViewController;
+			productReference = 1AACADB21497629E00B9ABA5 /* ATLViewController.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,6 +214,7 @@
 			projectRoot = "";
 			targets = (
 				1A0CD43F1491656500DC9443 /* JLAnimatedTextView */,
+				1AACADB11497629E00B9ABA5 /* ATLViewController */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +226,14 @@
 			files = (
 				1A0CD44F1491656500DC9443 /* InfoPlist.strings in Resources */,
 				1A0CD4621491659C00DC9443 /* ATLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AACADB01497629E00B9ABA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AACADCF149762C500B9ABA5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +251,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1AACADAE1497629E00B9ABA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AACADC7149762B900B9ABA5 /* ATLViewController.h in Sources */,
+				1AACADC8149762B900B9ABA5 /* ATLViewController.m in Sources */,
+				1AACADC9149762B900B9ABA5 /* ATLViewController.xib in Sources */,
+				1AACADCA149762B900B9ABA5 /* JLAppDelegate.h in Sources */,
+				1AACADCB149762B900B9ABA5 /* JLAppDelegate.m in Sources */,
+				1AACADCC149762B900B9ABA5 /* JLAnimatedTextView.h in Sources */,
+				1AACADCD149762B900B9ABA5 /* JLAnimatedTextView.m in Sources */,
+				1AACADCE149762B900B9ABA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -180,6 +273,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				1A0CD44E1491656500DC9443 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1AACADBA1497629E00B9ABA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AACADBB1497629E00B9ABA5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -254,6 +355,32 @@
 			};
 			name = Release;
 		};
+		1AACADC31497629E00B9ABA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATLViewController/ATLViewController-Prefix.pch";
+				INFOPLIST_FILE = "ATLViewController/ATLViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AACADC41497629E00B9ABA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATLViewController/ATLViewController-Prefix.pch";
+				INFOPLIST_FILE = "ATLViewController/ATLViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -271,6 +398,15 @@
 			buildConfigurations = (
 				1A0CD4591491656500DC9443 /* Debug */,
 				1A0CD45A1491656500DC9443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AACADC51497629E00B9ABA5 /* Build configuration list for PBXNativeTarget "ATLViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AACADC31497629E00B9ABA5 /* Debug */,
+				1AACADC41497629E00B9ABA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
